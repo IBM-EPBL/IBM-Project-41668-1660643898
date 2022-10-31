@@ -1,13 +1,27 @@
-Hello Busy World!
 
-Team ID : PNT2022TMID43379
+#  <img src="https://media3.giphy.com/media/hu71BNaU36l1g1zFgL/giphy.gif?cid=ecf05e47kxm4xej1ehqju6ckhku4yzs45w10nzu4vtt75ofa&rid=giphy.gif&ct=s" width="30px"> Real-Time River Water Quality Monitoring and Control System
+- TECHNOLOGY : IOT
 
-Team Size : 4
+# 📒 PROJECT DESCRIPTION
+To develop a system for real time quality assessment for river water health at residential places using Arduino,ESP32. 
+Sensors are used to gather different parameters in River water to monitor water health in real time.
+IoT integrated big data analytics is appeared to be a better solution as reliability, scalability, speed, and persistence can be provided
 
-Team Leader : MANOBHARATHI D
+# 🧑‍🎓 TEAM MEMBERS
+* Manobharathi D - Team Leader
+* Ashwath R
+* Mahesh Krishnan Y
+* Sivanandhan B
 
-Team member : ASHWATH R
 
-Team member : SIVANANDHAN B
+# **🎯Skills Required:**        
+IBM Cloud, IBM Cloud Object Storage, Python, IBM Watson IoT Platform, Node-RED service, Cloudant DB
 
-Team member : MAHESH KRISHNAN Y
+# **Ideation_Phase**
+## 🗺️ EMPATHY MAP - [Click Here](https://github.com/IBM-EPBL/IBM-Project-41668-1660643898/blob/main/IDEATION%20PHASE/Empathy%20Map.pdf)
+## 🧠 BRAINSTORMING -[Click Here](https://github.com/IBM-EPBL/IBM-Project-41668-1660643898/blob/main/IDEATION%20PHASE/Brainstorming-%20Idea%20Generation.pdf)
+## 💻 PROBLEM STATEMENT -[Click Here](https://github.com/IBM-EPBL/IBM-Project-41668-1660643898/blob/main/IDEATION%20PHASE/Problem%20Statement.pdf)
+
+
+### 📫 How to reach Us <a href = "mailto: 19ec127@psgitech.ac.in">Connect with Email</a>
+
