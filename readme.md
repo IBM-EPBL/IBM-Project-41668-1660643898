@@ -1,5 +1,5 @@
 
-#  <img src="https://media.giphy.com/media/VapauFsEHWCt2/giphy.gif" width="30px"> Real-Time River Water Quality Monitoring and Control System
+#  <img src="[https://media.giphy.com/media/VapauFsEHWCt2/giphy.gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fgifs%2FSOCOE-sarawak-jbalb-apakenak-J47stqjLWBNwjlhDwU&psig=AOvVaw1Y9Q5Lta6NF2u8pEWXRXYC&ust=1667322145575000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIj3kJb5ivsCFQAAAAAdAAAAABAE)" width="30px"> Real-Time River Water Quality Monitoring and Control System
 - TECHNOLOGY : IOT
 
 # 📒 PROJECT DESCRIPTION
