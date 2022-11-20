@@ -3,6 +3,8 @@ import ibmiotf.device
 import time
 import random
 import sys
+import twilio
+from twilio.rest import Client 
 
 #ibm watson device credentials
 
@@ -40,14 +42,29 @@ except Exception as e:
 
 deviceCli.connect()
 
+locat = ["Chennai","Mumbai","Delhi","Bangalore","Hyderabad","Cochin","Kolkata","Pune","Gurugram"]
+
 while True:
     time.sleep(2)
     Ph=random.randint(0,14)
     Turb=random.randint(0,10)
+    Loc=locat[random.randint(0,8)]
     
-    data={'Ph':Ph,'Turb':Turb}
+    data={'Ph':Ph,'Turb':Turb,"Loc":Loc}
     print(data)
     
+    if Ph == 14 or Turb == 10:
+        account_sid = 'AC8c714d42e03dc7700ef4e3c1ef84cc6d'
+        auth_token = '843a7df80441f0dddb47035f68e47e82'
+
+        client = Client(account_sid, auth_token)
+        message = client.messages.create(
+        body=f"River Water in {Loc} is NOT SAFE to use pH = {Ph} and Turbidity = {Turb}",
+        to="+919677755063",
+        from_="+19707106959"
+        )
+
+
     def myOnPublishCallBack():
         print("pH Value of Water %s " %Ph)
         print("Turb Value of Water %s " %Turb)
